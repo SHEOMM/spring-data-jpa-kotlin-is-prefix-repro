@@ -1,0 +1,9 @@
+.gradle/
+build/
+out/
+.idea/
+.kotlin/
+*.iml
+
+# Superseded verbose draft of the issue text: kept locally, not published.
+ISSUE.verbose.md
