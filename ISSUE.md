@@ -13,7 +13,7 @@ Both on Java 17, with H2 and `kotlin-reflect`.
 
 ## Reproducer
 
-_(link to be added)_
+https://github.com/SHEOMM/spring-data-jpa-kotlin-is-prefix-repro (tested at tag `repro-2026-07-23`)
 
 ```shell
 ./gradlew clean test printVersions
