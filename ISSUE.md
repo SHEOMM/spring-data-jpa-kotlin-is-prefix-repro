@@ -1,4 +1,4 @@
-Title: Derived queries can't reference a Kotlin `is`-prefixed Boolean property on a property-access entity
+Title: Support Kotlin is-prefixed Boolean property paths in derived queries for property-access entities
 
 I ran into a naming mismatch while using a Kotlin `Boolean` property whose name starts with `is`, on an entity that maps through property access (annotations on the getter). I couldn't find a derived-query spelling that works for it, and I wasn't sure whether that's expected or a gap, so I thought I'd write it up. I may well be missing something here.
 
