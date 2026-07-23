@@ -29,7 +29,7 @@ As a result, no derived-query spelling is usable:
 | --- | --- |
 | `findByActiveTrue()` | Commons rejects `active` with `PropertyReferenceException` |
 | `findByIsActiveTrue()` | Commons accepts `isActive`; the generated JPA path is then rejected as unknown |
-| `findByIsVerifiedTrue()` | the same JPA path failure occurs for boxed nullable `Boolean?` |
+| `findByIsVerifiedTrue()` | The same JPA path failure occurs for the boxed nullable `Boolean?` |
 
 ## Run
 
